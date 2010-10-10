@@ -1,0 +1,40 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.63.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 cac7a3488c9420063d7dba2833b745a34ee2385b Build.PL
+SHA1 cbf668f676ad00497d89057a45737aca58fc1c1e Changes
+SHA1 0001e963311ff99f09e0bed164e1611c279136f9 LICENSE
+SHA1 3ec5a774e0aa5be5db5691522058101005453036 MANIFEST
+SHA1 43acd2b351bfcd25a12cbfd8494c1195db3d2eea MANIFEST.SKIP
+SHA1 b4ebc1c66e8f0a1d6c06cefdae3ddf10127d2ee9 META.yml
+SHA1 d2dd306799017193967c430c172952de55f4c170 Makefile.PL
+SHA1 b4f4944594794825a72c271023f757619a6e5be2 README
+SHA1 924a1e5384bfe3c776056debe7f2ea3be5bdc03e lib/CGI/Application/Plugin/REST.pm
+SHA1 8a0a63e135ba8bcbab4744aab395fe27faf537a7 t/00-signature.t
+SHA1 d2ce9f93ca2d8864927541b93b9867cc5a486c28 t/01-load.t
+SHA1 42a63ead88836fff74cb0db49c7928f3e10771ff t/devpopup.t
+SHA1 c792a52a79968a4afe383bd9b39a942a16346175 t/lib/Test/CAPREST.pm
+SHA1 787bd75ded3ca3e17aa9e959b9d28f5d41ff8809 t/lib/Test/CAPRESTNoPopup.pm
+SHA1 da09e4a45696f07217ad5ad9e6fb797de863da6d t/lib/Test/CAPRESTPopup.pm
+SHA1 4527a213140cd876a66d972aa62c46b1260291ab t/param.t
+SHA1 f613dba9b2b061a4dacdd1b5ba261b710aa41615 t/routes.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEARECAAYFAkyxgicACgkQIN9eM6kfjrrEfwCeLaLtI1agEtjl32wcpaccKfGz
+7vIAnRvjKwSKZdaPQCnthvgHonKxu7eW
+=YrlH
+-----END PGP SIGNATURE-----

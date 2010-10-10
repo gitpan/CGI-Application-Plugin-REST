@@ -1,0 +1,18 @@
+Build.PL
+Changes
+LICENSE
+MANIFEST
+MANIFEST.SKIP
+README
+lib/CGI/Application/Plugin/REST.pm
+t/00-signature.t
+t/01-load.t
+t/devpopup.t
+t/param.t
+t/routes.t
+t/lib/Test/CAPREST.pm
+t/lib/Test/CAPRESTNoPopup.pm
+t/lib/Test/CAPRESTPopup.pm
+Makefile.PL
+META.yml
+SIGNATURE    Added here by Module::Build
